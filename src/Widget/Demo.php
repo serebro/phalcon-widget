@@ -13,7 +13,7 @@ class Demo extends Widget
     public function run()
     {
         return $this->render('demo', [
-            'parameter' => $this->parameter,
+            'parameter' => $this->parameter
         ]);
     }
 }
